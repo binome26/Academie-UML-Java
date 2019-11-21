@@ -5,6 +5,7 @@ public class Matiere {
 	private String libelle_cour;
 	private Salle salle;
 	private Enseignant enseignants;
+	
 
 	public Matiere(int numero_cour, String libelle_cour, Salle salle, Enseignant enseignants) {
 		this.numero_cour = numero_cour;
