@@ -1,11 +1,13 @@
 package academie_systeme;
 
+import java.util.ArrayList;
+
 public class Matiere {
 	private int numero_cour;
 	private String libelle_cour;
 	private Salle salle;
 	private Enseignant enseignants;
-	
+	ArrayList<Note> notes = new ArrayList<Note>();
 
 	public Matiere(int numero_cour, String libelle_cour, Salle salle, Enseignant enseignants) {
 		this.numero_cour = numero_cour;
@@ -46,7 +48,17 @@ public class Matiere {
 		this.enseignants = enseignants;
 	}
 
-	private Double calculer_moyenne() {
- 		return null;
+	public double calculer_moyenne() {
+		double sum = 0;
+		for (Note note : notes) {
+			sum += note.getNotecontrole();
+		}
+
+		return sum / notes.size();
+
+	}
+
+	public void ajouter_note(Note note) {
+		notes.add(note);
 	}
 }

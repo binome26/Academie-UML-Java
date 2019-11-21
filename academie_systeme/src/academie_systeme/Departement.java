@@ -9,7 +9,7 @@ public class Departement {
 	private ArrayList<Etudient> etudients;
 	private Enseignant_habilite responsable;
 	private Universite universite;
-	private ArrayList<Enseignant> enseignants=new ArrayList<Enseignant>();
+	private ArrayList<Enseignant> enseignants = new ArrayList<Enseignant>();
 	private ArrayList<Laboratoire> laboratoires = new ArrayList<Laboratoire>();
 
 	public Departement(int code_departement, String name_departement, Enseignant_habilite responsable) {
@@ -72,6 +72,18 @@ public class Departement {
 
 	public void setUniversite(Universite universite) {
 		this.universite = universite;
+	}
+
+	public double calculer_moyenne() {
+		double sum = 0;
+		for (Etudient etudient : etudients) {
+			sum += etudient.getMoyenne();
+		}
+		return sum / etudients.size();
+	}
+
+	public void ajouter_etudients(Etudient etudient) {
+		etudients.add(etudient);
 	}
 
 }
