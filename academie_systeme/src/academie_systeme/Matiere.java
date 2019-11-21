@@ -1,12 +1,12 @@
 package academie_systeme;
 
-public class Cours {
+public class Matiere {
 	private int numero_cour;
 	private String libelle_cour;
 	private Salle salle;
 	private Enseignant enseignants;
 
-	public Cours(int numero_cour, String libelle_cour, Salle salle, Enseignant enseignants) {
+	public Matiere(int numero_cour, String libelle_cour, Salle salle, Enseignant enseignants) {
 		this.numero_cour = numero_cour;
 		this.libelle_cour = libelle_cour;
 		this.salle = salle;

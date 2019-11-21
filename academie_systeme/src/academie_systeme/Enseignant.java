@@ -7,7 +7,7 @@ public abstract class Enseignant extends Personne {
 
 	private float salaire;
 	private Date date_entree;
-	private ArrayList<Cours> cours;
+	private ArrayList<Matiere> cours;
 	private Departement departement;
 	
 	public Enseignant(float salaire, Date date_entree) {
@@ -38,11 +38,11 @@ public abstract class Enseignant extends Personne {
 	}
 	public void cours_enseigner() {}
 
-	public ArrayList<Cours> getCours() {
+	public ArrayList<Matiere> getCours() {
 		return cours;
 	}
 
-	public void setCours(ArrayList<Cours> cours) {
+	public void setCours(ArrayList<Matiere> cours) {
 		this.cours = cours;
 	}
 

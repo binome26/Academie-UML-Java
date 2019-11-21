@@ -6,13 +6,13 @@ public class Salle {
 	private int numero_salle;
 	private String nom;
 	private String capacite;
-	ArrayList<Cours> cours;
+	ArrayList<Matiere> cours;
 
 	public Salle(int numero_salle, String nom, String capacite) {
 		this.numero_salle = numero_salle;
 		this.nom = nom;
 		this.capacite = capacite;
-		cours=new ArrayList<Cours>();
+		cours=new ArrayList<Matiere>();
 	}
 
 	public int getNumero_salle() {
@@ -39,14 +39,14 @@ public class Salle {
 		this.capacite = capacite;
 	}
 
-	public ArrayList<Cours> getCours() {
+	public ArrayList<Matiere> getCours() {
 		return cours;
 	}
 
-	public void setCours(ArrayList<Cours> cours) {
+	public void setCours(ArrayList<Matiere> cours) {
 		this.cours = cours;
 	}
-	public void ajouterCour(Cours c) {
+	public void ajouterCour(Matiere c) {
 		
 		cours.add(c);
 		
