@@ -16,6 +16,14 @@ public class Enseignant_habilite extends Enseignant{
 		super(id, nom, tel, email, salaire, date_entree);
 		// TODO Auto-generated constructor stub
 	}
+
+	public Laboratoire getLaboratoire() {
+		return laboratoire;
+	}
+
+	public void setLaboratoire(Laboratoire laboratoire) {
+		this.laboratoire = laboratoire;
+	}
 	
 
 }

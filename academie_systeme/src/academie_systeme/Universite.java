@@ -49,11 +49,8 @@ public class Universite {
 	public void destroy() {
 		if (departements != null)
 			for (Departement d : departements) {
-				//
+				departements.remove(d);
 			}
-		// d.destroy();
-		// departements.clean();
-		// departements = null;
 	}
 
 }
