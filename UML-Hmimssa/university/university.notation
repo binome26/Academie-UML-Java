@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmi:id="_K4l5IAx4Eeqmbe6PmHLKCQ" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmi:id="_K4l5IAx4Eeqmbe6PmHLKCQ" type="PapyrusUMLClassDiagram" name="University" measurementUnit="Pixel">
   <children xsi:type="notation:Shape" xmi:id="_JjoeYA2WEeq5Ta47PPncQw" type="Package_Shape">
     <children xsi:type="notation:DecorationNode" xmi:id="_Jjy2cA2WEeq5Ta47PPncQw" type="Package_NameLabel"/>
     <children xsi:type="notation:BasicCompartment" xmi:id="_Jjy2cQ2WEeq5Ta47PPncQw" type="Package_PackagedElementCompartment">
@@ -452,7 +452,7 @@
   <styles xsi:type="notation:StringValueStyle" xmi:id="_K4mgMAx4Eeqmbe6PmHLKCQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
   <styles xsi:type="notation:DiagramStyle" xmi:id="_K4mgMQx4Eeqmbe6PmHLKCQ"/>
   <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_K4mgMgx4Eeqmbe6PmHLKCQ" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
-    <owner href="university.uml#_K1Vw0Ax4Eeqmbe6PmHLKCQ"/>
+    <owner href="university.uml#_Jiyw4A2WEeq5Ta47PPncQw"/>
   </styles>
   <element href="university.uml#_K1Vw0Ax4Eeqmbe6PmHLKCQ"/>
   <edges xsi:type="notation:Connector" xmi:id="_jqKtoAx-Eeqmbe6PmHLKCQ" type="Association_Edge" source="_R28LUAx4Eeqmbe6PmHLKCQ" target="_3lbCgAx7Eeqmbe6PmHLKCQ">
@@ -470,7 +470,7 @@
     </children>
     <children xsi:type="notation:DecorationNode" xmi:id="_jqLUtgx-Eeqmbe6PmHLKCQ" type="Association_SourceRoleLabel">
       <styles xsi:type="notation:BooleanValueStyle" xmi:id="_ntKB8Ax-Eeqmbe6PmHLKCQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xsi:type="notation:Location" xmi:id="_jqLUtwx-Eeqmbe6PmHLKCQ" x="-13" y="39"/>
+      <layoutConstraint xsi:type="notation:Location" xmi:id="_jqLUtwx-Eeqmbe6PmHLKCQ" x="-53" y="-21"/>
     </children>
     <children xsi:type="notation:DecorationNode" xmi:id="_jqLUuAx-Eeqmbe6PmHLKCQ" type="Association_SourceMultiplicityLabel">
       <styles xsi:type="notation:BooleanValueStyle" xmi:id="_ntUaAAx-Eeqmbe6PmHLKCQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
